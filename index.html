@@ -51,6 +51,53 @@
                             <use href="./images/symbol-defs.svg#icon-close"></use>
                         </svg>
                     </button>
+                    <p class="user-date-slogan">Залиште свої дані, ми вам передзвонимо</p>
+                    <form name="user-date" class="user-date">
+                        <ul class="date-forms">
+                            <li>
+                                <label for="name">Ім'я</label>
+                                <input type="text" id="name">
+                                <svg width="18px" height="18px" class="form-icon">
+                                    <use href="./images/icons.svg#icon-person-black"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <label for="tel">Телефон</label>
+                                <input type="tel" id="tel">
+                                <svg width="18px" height="18px" class="form-icon">
+                                    <use href="./images/icons.svg#icon-phone-black"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <label for="email">Пошта</label>
+                                <input type="email" id="email">
+                                <svg width="18px" height="18px" class="form-icon">
+                                    <use href="./images/icons.svg#icon-email-black"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <label for="commentary">Коментар</label>
+                                <textarea name="commentary" id="commentary" rows="7" placeholder="Введіть текст"></textarea>
+                            </li>
+                        </ul>
+ 
+                        <div class="form-conditions">
+                            
+                            <label for="conditions" class="conditions">
+                                <input type="checkbox" id="conditions" name="checkbox" class="checkbox-conditions">
+                                <span class="true-checkbox" id="conditions">
+                                    <svg class="icon-true-checkbox">
+                                        <use href="./images/icons.svg#icon-Vector-submit"></use>
+                                    </svg>
+                                </span>
+                                Погоджуюся з розсилкою та приймаю 
+                                <a href="#" class="conditions-link">Умови договору</a>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="submit-user-email">Відправити</button>
+                        
+                    </form>
                 </div>
             </div>
         </section>
@@ -348,6 +395,23 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+
+            <div class="container-socials">
+                <form name="signup-form">
+                    <p class="footer-slogan">Підпишіться на розсилку</p>
+                    <div class="container-signup">
+                        <input type="email" name="email" id="user-email" placeholder="E-mail" class="user-email">
+                        <label for="user-email">
+                            <button type="submit" class="submit-user-email">
+                                <p>Підписатися</p>
+                                <svg width="24px" height="24px">
+                                    <use href="./images/icons.svg#icon-send"></use>
+                                </svg>
+                            </button>   
+                        </label>
+                    </div>        
+                </form>
             </div>
         </div>
     </footer>
