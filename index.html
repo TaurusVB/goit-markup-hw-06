@@ -51,8 +51,9 @@
                             <use href="./images/symbol-defs.svg#icon-close"></use>
                         </svg>
                     </button>
-                    <p class="user-date-slogan">Залиште свої дані, ми вам передзвонимо</p>
+                    
                     <form name="user-date" class="user-date">
+                        <p class="user-date-slogan">Залиште свої дані, ми вам передзвонимо</p>
                         <ul class="date-forms">
                             <li>
                                 <label for="name">Ім'я</label>
@@ -75,7 +76,7 @@
                                     <use href="./images/icons.svg#icon-email-black"></use>
                                 </svg>
                             </li>
-                            <li>
+                            <li class="commentary">
                                 <label for="commentary">Коментар</label>
                                 <textarea name="commentary" id="commentary" rows="7" placeholder="Введіть текст"></textarea>
                             </li>
@@ -90,8 +91,9 @@
                                         <use href="./images/icons.svg#icon-icon-check"></use>
                                     </svg>
                                 </span>
-                                Погоджуюся з розсилкою та приймаю 
-                                <a href="#" class="conditions-link">Умови договору</a>
+                                <span>Погоджуюся з розсилкою та приймаю 
+                                    <a href="#" class="conditions-link">Умови договору</a>
+                                </span>
                             </label>
                         </div>
 
@@ -402,14 +404,13 @@
                     <p class="footer-slogan">Підпишіться на розсилку</p>
                     <div class="container-signup">
                         <input type="email" name="email" id="user-email" placeholder="E-mail" class="user-email">
-                        <label for="user-email">
-                            <button type="submit" class="submit-user-email">
-                                <p>Підписатися</p>
-                                <svg width="24px" height="24px">
-                                    <use href="./images/icons.svg#icon-send"></use>
-                                </svg>
-                            </button>   
-                        </label>
+                        
+                        <button type="submit" class="submit-user-email">
+                            <p>Підписатися</p>
+                            <svg width="24px" height="24px">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>   
                     </div>        
                 </form>
             </div>

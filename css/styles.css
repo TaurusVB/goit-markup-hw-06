@@ -307,6 +307,8 @@ textarea {
     display: block;
     align-items: center;
     justify-content: center;
+
+    padding-top: 2px;
 }
 
 .date-forms label {
@@ -322,7 +324,6 @@ textarea {
 .date-forms input {
     width: 448px;
     height: 40px;
-    margin-bottom: 10px;
     padding-left: 42px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -341,7 +342,6 @@ textarea {
 
 .date-forms textarea {
     height: 120px;
-    margin-bottom: 20px;
     padding: 12px 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -366,15 +366,18 @@ textarea {
     flex-direction: column;
     padding-left: 40px;
     padding-right: 40px;
+    margin-bottom: 10px;
 
     text-align: left;
     list-style: none;
 }
 
-.user-date-slogan {
+.date-forms .commentary {
+    margin-bottom: 20px;
+}
 
-    padding-top: 2px;
-    padding-bottom: 12px;
+.user-date-slogan {
+    margin-bottom: 12px;
 
     font-weight: 700;
     font-size: 20px;
@@ -401,7 +404,7 @@ textarea {
 
 .conditions {
     position: relative;
-    padding-left: 24px;
+    margin-left: 24px;
 
     font-size: 14px;
     line-height: 1.71;
@@ -414,7 +417,7 @@ textarea {
 .true-checkbox {
     position: absolute;
     top: 1px;
-    left: -1px;
+    left: -23px;
     width: 16px;
     height: 15px;
     border: 2px solid var(--title-color);  
@@ -913,7 +916,7 @@ textarea {
 }
 
 .container-socials {
-    margin-left: 70px;
+    margin-left: auto;
 }
 
 .list-socials .item:hover,
@@ -930,6 +933,10 @@ textarea {
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     background-color: var(--black-bg-color);
+}
+
+.user-email:focus-visible {
+    color: var(--main-background-color);
 }
 
 .submit-user-email {
