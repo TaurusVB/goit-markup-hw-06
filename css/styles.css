@@ -309,6 +309,8 @@ textarea {
     justify-content: center;
 
     padding-top: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .date-forms label {
@@ -364,8 +366,6 @@ textarea {
 .date-forms li {
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
-    padding-right: 40px;
     margin-bottom: 10px;
 
     text-align: left;
@@ -457,7 +457,7 @@ textarea {
 .form-icon {
     position: absolute;
     top: 29px;
-    left: 53px;
+    left: 12px;
 
     display: inline-block;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
